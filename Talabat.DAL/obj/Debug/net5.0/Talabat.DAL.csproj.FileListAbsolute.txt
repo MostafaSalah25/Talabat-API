@@ -1,0 +1,36 @@
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\bin\Debug\net5.0\Talabat.DAL.deps.json
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\bin\Debug\net5.0\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\bin\Debug\net5.0\Talabat.DAL.pdb
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.csproj.AssemblyReference.cache
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.AssemblyInfoInputs.cache
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.AssemblyInfo.cs
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.csproj.CoreCompileInputs.cache
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\obj\Debug\net5.0\refint\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.pdb
+F:\Back-end\8-ASP.Net Web API\Talabat.API.Solution\Talabat.DAL\obj\Debug\net5.0\ref\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\bin\Debug\net5.0\Talabat.DAL.deps.json
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\bin\Debug\net5.0\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\bin\Debug\net5.0\Talabat.DAL.pdb
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.csproj.AssemblyReference.cache
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.AssemblyInfoInputs.cache
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.AssemblyInfo.cs
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.csproj.CoreCompileInputs.cache
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\refint\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.pdb
+F:\Back-end\8-ASP.Net Web API\New folder\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\ref\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\bin\Debug\net5.0\Talabat.DAL.deps.json
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\bin\Debug\net5.0\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\bin\Debug\net5.0\Talabat.DAL.pdb
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.csproj.AssemblyReference.cache
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.AssemblyInfoInputs.cache
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.AssemblyInfo.cs
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.csproj.CoreCompileInputs.cache
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\refint\Talabat.DAL.dll
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\Talabat.DAL.pdb
+F:\Back-end\8-ASP.Net Web API\Talabat.API.SolutionOnGithub\Talabat.DAL\obj\Debug\net5.0\ref\Talabat.DAL.dll

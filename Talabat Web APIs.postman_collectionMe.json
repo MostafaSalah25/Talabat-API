@@ -1,0 +1,1168 @@
+{
+	"info": {
+		"_postman_id": "d36f5e7b-3e3a-490c-be2b-857ff0af04a0",
+		"name": "Talabat Web APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19680775"
+	},
+	"item": [
+		{
+			"name": "Session 02",
+			"item": [
+				{
+					"name": "Products Controller",
+					"item": [
+						{
+							"name": "Get Products",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Product",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products/5",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products",
+										"5"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Product Brands",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2MjcyMDYxMywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.2AJ66iEcnFZ7ry-wejFgx8JTasnDalp6vPT4dF8PYkA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products/brands",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products",
+										"brands"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Product Types",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products/types",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products",
+										"types"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Error Handling",
+					"item": [
+						{
+							"name": "Get Not Found Product",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/buggy/notfound",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"buggy",
+										"notfound"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get  bad request",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/buggy/badrequest",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"buggy",
+										"badrequest"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Not Found Endpoint",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/hamda",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"hamda"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "server error",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/buggy/servererror",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"buggy",
+										"servererror"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get  Validation Error",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/buggy/badrequest/five",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"buggy",
+										"badrequest",
+										"five"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Sorting and Filtering",
+					"item": [
+						{
+							"name": "GetProducts sorted by name (default case)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetProducts sorted by Price Ascending",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products?sort=priceAsc",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									],
+									"query": [
+										{
+											"key": "sort",
+											"value": "priceAsc"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetProducts sorted by Price Descending",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products?sort=priceDesc",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									],
+									"query": [
+										{
+											"key": "sort",
+											"value": "priceDesc"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Products by Brand",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products?brandId=2",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									],
+									"query": [
+										{
+											"key": "brandId",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Products by Type",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products?typeId=3",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									],
+									"query": [
+										{
+											"key": "typeId",
+											"value": "3"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Products by Brand And Type",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products?typeId=3&brandId=2",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									],
+									"query": [
+										{
+											"key": "typeId",
+											"value": "3"
+										},
+										{
+											"key": "brandId",
+											"value": "2"
+										},
+										{
+											"key": "",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Paged Products Page 0 Size 5",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2MjcyMDYxMywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.2AJ66iEcnFZ7ry-wejFgx8JTasnDalp6vPT4dF8PYkA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2MjcyMDYxMywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.2AJ66iEcnFZ7ry-wejFgx8JTasnDalp6vPT4dF8PYkA",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/products?pageSize=10&pageIndex=1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									],
+									"query": [
+										{
+											"key": "pageSize",
+											"value": "10"
+										},
+										{
+											"key": "pageIndex",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Paged Products by Brand And Type Sorted by price desc",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Origin",
+										"value": "https://localhost:4200",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/products?brandId=2&pageSize=3",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									],
+									"query": [
+										{
+											"key": "typeId",
+											"value": "2",
+											"disabled": true
+										},
+										{
+											"key": "brandId",
+											"value": "2"
+										},
+										{
+											"key": "sort",
+											"value": "priceDesc",
+											"disabled": true
+										},
+										{
+											"key": "pageSize",
+											"value": "3"
+										},
+										{
+											"key": "pageIndex",
+											"value": "2",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Check Cors is enabled",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Origin",
+										"value": "https://localhost:4200",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/products?sort=priceDesc&search=blue",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									],
+									"query": [
+										{
+											"key": "typeId",
+											"value": "3",
+											"disabled": true
+										},
+										{
+											"key": "brandId",
+											"value": "2",
+											"disabled": true
+										},
+										{
+											"key": "sort",
+											"value": "priceDesc"
+										},
+										{
+											"key": "search",
+											"value": "blue"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "search",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products?Search=angular",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									],
+									"query": [
+										{
+											"key": "Search",
+											"value": "angular"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Request",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Basket",
+					"item": [
+						{
+							"name": "Get Basket",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/basket?basketid=basket1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"basket"
+									],
+									"query": [
+										{
+											"key": "basketid",
+											"value": "basket1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Basket",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"basket1\",\n  \"items\": [\n    {\n      \"id\": 4,\n      \"productName\": \".NET Black & White Muggg\",\n      \"price\": 1,\n      \"quantity\": 3,\n      \"pictureUrl\": \"https://localhost:5001/images/products/2.png\", \n      \"brand\": \".NET\",\n      \"type\": \"USB Memory Stick\"\n    }\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/basket",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"basket"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Basket",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/basket?basketid=basket1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"basket"
+									],
+									"query": [
+										{
+											"key": "basketid",
+											"value": "basket1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Identity",
+					"item": [
+						{
+							"name": "Login as mostafa",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\":\"mostafasalah100@gmail.com\" ,\r\n    \"password\":\"P@ssw0rd\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/Account/login",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"Account",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Register as ahmed",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"displayName\": \"Ahmed Mohamed\",\r\n  \"firstName\": \"ahmed\",\r\n  \"lastName\": \"mohamed\",\r\n  \"email\": \"AhmedMohamed1@gmail.com\",\r\n  \"phoneNumber\": \"01012121212\",\r\n  \"password\": \"P@ssw0rd\",\r\n  \"city\": \"ciro\",\r\n  \"country\": \"Egypt\",\r\n  \"street\": \"Tahrir street\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/Account/register",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"Account",
+										"register"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetCurrentUser",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2MjcyMDYxMywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.2AJ66iEcnFZ7ry-wejFgx8JTasnDalp6vPT4dF8PYkA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/account",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"account"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetUserAddress",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2MjcyMDYxMywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.2AJ66iEcnFZ7ry-wejFgx8JTasnDalp6vPT4dF8PYkA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/account/address",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"account",
+										"address"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UpdateAddress",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2MjcyMDYxMywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.2AJ66iEcnFZ7ry-wejFgx8JTasnDalp6vPT4dF8PYkA",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"firstName\": \"Mostafa\",\r\n    \"lastName\": \"Salah\",\r\n    \"country\": \"Egypt\",\r\n    \"city\": \"new Cairo\",\r\n    \"street\": \"10 Tahrir st\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/account/address",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"account",
+										"address"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "checkEmailExist",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/account/emailexists?email=mostafasalah100@gmail.com",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"account",
+										"emailexists"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "mostafasalah100@gmail.com"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Order",
+					"item": [
+						{
+							"name": "Create order",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"basketId\": \"basket1\",\r\n  \"deliveryMethodId\": 4,\r\n  \"shipToAddress\": {\r\n    \"firstName\": \"Mostafa\",\r\n    \"lastName\": \"Salah\",\r\n    \"country\": \"Egypt\",\r\n    \"city\": \"new Cairo\",\r\n    \"street\": \"10 Tahrir st\"\r\n  }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/orders",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get orders for user",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/orders",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get order for user",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/orders/2 ",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"orders",
+										"2 "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get delivery methods",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/orders/deliveryMethods",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"orders",
+										"deliveryMethods"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Payments",
+					"item": [
+						{
+							"name": "Create payment intent",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/payments/basket1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"payments",
+										"basket1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Basket with client secret",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": \"basket1\",\r\n    \"items\": [\r\n        {\r\n            \"productName\": \".NET Black & White Muggg\",\r\n            \"price\": 250.00,\r\n            \"quantity\": 7,\r\n            \"pictureUrl\": \"https://localhost:5001/images/products/2.png\",\r\n            \"brand\": \".NET\",\r\n            \"type\": \"USB Memory Stick\",\r\n            \"id\": 4\r\n        }\r\n    ],\r\n    \"deliveryMethodId\": null,\r\n    \"shippingPrice\": 0,\r\n    \"paymentIntentId\": \"pi_3LXcCbHnlx1qRkoA0TmD4hVe\",\r\n    \"clientSecret\": \"pi_3LXcCbHnlx1qRkoA0TmD4hVe_secret_Ol0PnbXFOqpWvJAd9yxBPAidJ\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/basket",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"basket"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update payment intent",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/payments/basket1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"payments",
+										"basket1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Cashing",
+					"item": [
+						{
+							"name": "get prods",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJtb3N0YWZhc2FsYWgxMDBAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiTW9zdGFmYSBTYWxhaCIsImV4cCI6MTY2Mjc3MjMwOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS8iLCJhdWQiOiJNeVNlY3VyZWRBcGlVc2VycyJ9.NQRWmHwGqi4IsPx5D2TjGqLXCWexQ2NINue2CrYKuWE",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/products?pageIndex=1&pageSize=5&sort=name  ",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"products"
+									],
+									"query": [
+										{
+											"key": "pageIndex",
+											"value": "1"
+										},
+										{
+											"key": "pageSize",
+											"value": "5"
+										},
+										{
+											"key": "sort",
+											"value": "name  "
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://localhost:5001",
+			"type": "string"
+		}
+	]
+}
